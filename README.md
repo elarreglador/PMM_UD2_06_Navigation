@@ -17,11 +17,13 @@ Para que NavController funcione, se requiere agregar ciertas lineas de texto en 
 
 ### /gradle/libs.versions.toml
 En el apartado libraries agregamos esta linea:
+
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version = "2.8.3" }
 
 ### /App/build.gradle.kts
 En el apartado dependencies agregamos esta linea:
-androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version = "2.8.3" }
+
+implementation("androidx.navigation:navigation-compose:2.8.3")
 
 
 ## Características
